@@ -3,8 +3,10 @@
     grid-template-columns: auto 1fr;
     margin-bottom: 20px;
 }
-.job-date h3 {
+.job-date div {
     font-size:0.9rem;
+    font-weight:200;
+    opacity:60%;
     width:160px;
 }
 .company {
@@ -14,7 +16,7 @@
 .title {
     font-weight:500;
     font-size:1.1rem;
-    opacity:80%;
+    opacity:85%;
 }
 
 .desc {
