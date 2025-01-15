@@ -1,0 +1,140 @@
+/* HomePage.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display:flex;
+    justify-content:center;
+    width:100%;
+  }
+  
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 3rem;
+    color: #222;
+  }
+  .profile {
+    border-radius:50%;
+    height: 200px;
+    width:200px;
+  }
+  .tagline {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  .about {
+    grid-row:1 / span 2;
+    grid-column: 1;
+    /* margin-left:30px; */
+  }
+  .skills {
+    grid-row: 2;
+    grid-column: 2
+  }
+  .facts {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .about,
+  .skills,
+  .facts {
+    text-align:center;
+    width:95%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px 0px;
+    margin: 10px 0;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding:10px;
+  }
+  
+  .about h2,
+  .facts h2,
+  .skills h2 {
+    color: #444;
+    margin-bottom: 18px;
+  }
+  .about img {
+    background: #333;
+    margin:15px;
+  }
+  .about p {
+    margin: 12px 0;
+  }
+  ul {
+    margin-left:2rem;
+  }
+  ul img {
+    width:18px;
+    height:18px;
+    margin-right:5px;
+  }
+  ul li {
+    margin:5px 0px;
+    display:flex;
+    align-items:center;
+  }
+  .skills ul {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .facts ul {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    padding:5px;
+    margin: 10px;
+  }
+  .social-links a {
+    background: #333;
+    margin:0px 5px;
+    text-decoration: none;
+    border-radius:1rem;
+    padding:8px;
+    display:flex;
+    justify-content:center; 
+  }
+  .social-links a:hover {
+    /* background: #555; */
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+  }
+  .github {
+    margin-right:5px;
+    color:white;
+  }
+  .linkedin {
+    margin-right:5px; 
+  }
+  .github-icon {
+    color:white;
+    width:100px;
+  }
+  .linkedin-icon {
+    color:rgb(56, 127, 181);
+    width:100px;
+  }
+  .content {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    width:85%;
+  }

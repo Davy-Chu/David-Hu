@@ -1,0 +1,21 @@
+.header {
+    background: #333;
+    color: #fff;
+    padding: 0px 10px;
+    text-align: center;
+    display:flex;
+    width: 100vw;
+    height:50px;
+}
+
+h3 {
+    padding:13px;
+}
+.header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.header a:hover {
+    color:rgba(0, 0, 255, 0.717);
+}
