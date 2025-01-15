@@ -3,6 +3,7 @@ import './Header.css';
 export default function Header() {
     return (
         <div className="header">
+            <div className="logo">D.H.</div>
             <a href="/" className="active">
                 <h3>Home</h3>
             </a>

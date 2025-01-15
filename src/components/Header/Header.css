@@ -1,13 +1,23 @@
 .header {
-    background: #333;
+    background:#121212;
     color: #fff;
     padding: 0px 10px;
-    text-align: center;
+    text-align: right;
     display:flex;
     width: 100vw;
     height:50px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3);
 }
-
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display:flex;
+    color:#3f51b5;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    margin-right:auto;
+}
 h3 {
     padding:13px;
 }
@@ -17,5 +27,7 @@ h3 {
     padding: 0px 10px;
 }
 .header a:hover {
-    color:rgba(0, 0, 255, 0.717);
+    background-color:#252525;
+    border-radius:0.5rem;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.6);
 }
