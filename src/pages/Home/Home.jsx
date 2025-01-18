@@ -29,7 +29,7 @@ const HomePage = () => {
             <li>🎓 Wilfrid Laurier University CS Class of '26</li>
             <li><img src="/assets/logo192.png" alt=""/> Currently working on a React project</li>
             <li>🌱 Learning about cloud computing</li>
-            <li>🎹 Hobbyist Pianist, 🥋Lifelong Martial Artist,🧗 Avid Rockclimber </li>
+            <li>🎹 Hobbyist Pianist, 🥋Lifelong Martial Artist,🧗Rockclimber </li>
           </ul>
           <p>
             
