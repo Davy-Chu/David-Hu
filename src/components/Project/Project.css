@@ -1,0 +1,26 @@
+.project {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 20px;
+}
+.project-date div {
+    font-size:0.9rem;
+    font-weight:400;
+    opacity:80%;
+    width:160px;
+}
+.name {
+    font-weight:700;
+    font-size:1.15rem;
+}
+.tech {
+    font-weight:500;
+    font-size:0.85rem;
+    opacity:85%;
+}
+
+.desc {
+    font-size:0.9rem;
+    font-weight:200;
+    opacity:60%;
+}
