@@ -4,6 +4,7 @@ import Work from './pages/Work/Work.jsx';
 import Projects from './pages/Projects/Projects.jsx';
 import Blog from './pages/Blog/Blog.jsx';
 import Header from './components/Header/Header.jsx'
+import HockleyValleyReview from './pages/Blog/HockleyValleyReview/HockleyValleyReview.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (  
@@ -16,6 +17,7 @@ function App() {
         <Route path="work" element={<Work />} />
           <Route path="projects" element={<Projects />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="blog/Hockley-review" element={<HockleyValleyReview />} />
 
       </Routes>
     </BrowserRouter>

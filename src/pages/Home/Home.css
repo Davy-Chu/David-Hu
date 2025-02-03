@@ -77,15 +77,15 @@ body {
     margin: 12px 0;
     color: #181818;
   }
-  ul {
+  .homepage ul {
     margin-left:2rem;
   }
-  ul img {
+  .homepage ul img {
     width:18px;
     height:18px;
     margin-right:5px;
   }
-  ul li {
+  .homepage ul li {
     margin:5px 0px;
     display:flex;
     align-items:center;

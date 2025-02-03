@@ -1,0 +1,10 @@
+.blog-page{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-page h1 {
+    width:100%;
+    text-align:center;
+}
