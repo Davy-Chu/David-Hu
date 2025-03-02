@@ -38,9 +38,9 @@ const HomePage = () => {
         <section className="skills">
           <h2>Skills 💻</h2>
           <ul>
-            <li><strong>Languages:</strong> JavaScript, Typescript, Python, C++</li>
+            <li><strong>Languages:</strong> JavaScript, Typescript, Python, C++, C#, PHP</li>
             <li><strong>Frontend:</strong> React, Angular, NextJS</li>
-            <li><strong>Backend:</strong> Node.js, Express, Flask</li>
+            <li><strong>Backend:</strong> Node.js, Express, Flask, .NET</li>
             <li><strong>Databases:</strong> MongoDB, PostgreSQL</li>
             <li><strong>Tools:</strong> Git, VS Code</li>
           </ul>

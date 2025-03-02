@@ -5,7 +5,7 @@ export default function Work() {
         <div className="work-page">
             <div className="page-content">
                 <p className="work-desc">
-                    I have experience working in front-end and back-end  development roles, as well as 
+                    I have experience working in full-stack development roles, as well as 
                     different types of work environments and technologies.
                 </p>
                 <h2 className="work-header">Timeline</h2>
@@ -24,10 +24,10 @@ export default function Work() {
                     to deliver new features and improve the user experience."
                 />
                 <Job
-                    title="Frontend Engineer"
+                    title="Software Developer"
                     company="CAA Club Group"
                     date="May 2023 - August 2023"
-                    desc="Developed a dynamic dashboard in Angular using RESTful APIs to dynamically 
+                    desc="Developed a dynamic dashboard in Angular, C#, and .NET using RESTful APIs to dynamically 
                     update in real-time with data fetched from the back end, providing information about 
                     development environment information such as statuses and timelines, used by the 
                     automation and DevOps teams of 25 members."
