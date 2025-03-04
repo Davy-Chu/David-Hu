@@ -144,3 +144,26 @@ body {
     justify-items:center;
     width:85%;
   }
+  @media (max-width: 900px) {
+    .content {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      gap: 15px;
+    }
+    .about, .skills, .facts {
+      width: 100%;
+      max-width: 100%;
+      grid-column: auto;
+      grid-row: auto;
+    }
+  }
+  @media (min-width: 1200px) {
+    .content {
+      width: 75%;
+    }
+    
+    .about, .skills, .facts {
+      padding: 30px; 
+      max-width: 900px
+    }
+  }
